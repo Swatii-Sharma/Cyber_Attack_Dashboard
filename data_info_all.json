@@ -1,0 +1,115 @@
+{
+    "Particle Data": {
+        "columns": [
+            "SampleMatrix",
+            "SampleID",
+            "PlasticType",
+            "MorphologicalCategory",
+            "Color",
+            "Length.mm",
+            "Width.mm",
+            "MatrixName"
+        ],
+        "head": {
+            "SampleMatrix": {
+                "0": "manta",
+                "1": "manta",
+                "2": "manta",
+                "3": "manta",
+                "4": "manta"
+            },
+            "SampleID": {
+                "0": "CB-4-Manta-21Aug2017",
+                "1": "CB-4-Manta-21Aug2017",
+                "2": "CB-4-Manta-21Aug2017",
+                "3": "CB-4-Manta-21Aug2017",
+                "4": "CB-4-Manta-21Aug2017"
+            },
+            "PlasticType": {
+                "0": "Polyethylene/polypropylene copolymer",
+                "1": "Polyester",
+                "2": "Polyethylene/polypropylene copolymer",
+                "3": "Polyester",
+                "4": "Polyester"
+            },
+            "MorphologicalCategory": {
+                "0": "Fiber",
+                "1": "Fiber",
+                "2": "Fiber",
+                "3": "Fiber",
+                "4": "Fiber"
+            },
+            "Color": {
+                "0": "Light Blue",
+                "1": "Black",
+                "2": "Clear",
+                "3": "Light Blue",
+                "4": "Black"
+            },
+            "Length.mm": {
+                "0": 2.427,
+                "1": 4.385,
+                "2": 2.907,
+                "3": 1.869,
+                "4": 3.112
+            },
+            "Width.mm": {
+                "0": 0.037,
+                "1": 0.04,
+                "2": 0.08,
+                "3": 0.035,
+                "4": 0.035
+            },
+            "MatrixName": {
+                "0": "samplewater, particulate, >125 to 355 um",
+                "1": "samplewater, particulate, >125 to 355 um",
+                "2": "samplewater, particulate, >125 to 355 um",
+                "3": "samplewater, particulate, >125 to 355 um",
+                "4": "samplewater, particulate, >125 to 355 um"
+            }
+        }
+    },
+    "manta": {
+        "columns": [
+            "SampleID",
+            "StationCode",
+            "SampleDate",
+            "ActualLatitude",
+            "ActualLongitude",
+            "Datum",
+            "Volume.L",
+            "Count",
+            "ProjectCode",
+            "EventCode",
+            "ProtocolCode",
+            "AgencyCode",
+            "SampleComments",
+            "LocationCode",
+            "GeometryShape",
+            "CollectionTime",
+            "CollectionMethodCode",
+            "SampleType",
+            "CollectionDeviceName",
+            "CollectionDepth",
+            "UnitCollectionDepth",
+            "Replicate",
+            "PositionWaterColumn",
+            "LabCollectionComments"
+        ],
+        "head": {
+            "SampleID": {
+                "0": "CB4-Manta-16Nov2017",
+                "1": "CB-4-Manta-21Aug2017",
+                "2": "CB5-Manta-16Nov2017",
+                "3": "CB5-Manta-22Aug2017",
+                "4": "CB5-Manta-5Nov2017"
+            },
+            "StationCode": {
+                "0": "CB04",
+                "1": "CB04",
+                "2": "CB05",
+                "3": "CB05",
+                "4": "CB05"
+            },
+            "SampleDate": {
+                "0": 
