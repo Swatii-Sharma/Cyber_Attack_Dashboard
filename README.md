@@ -1,49 +1,48 @@
-# Microplastic Analytics Platform
+# Cyber Intelligence Dashboard
 
-A full-stack web application for analyzing and visualizing microplastic pollution data, specifically focusing on the San Francisco Bay Microplastics Project. This platform provides scientific intelligence for tracking microplastic distribution by type, size, color, and location.
+**Project Link:** [https://github.com/Swatii-Sharma/Micro_Particle_Dashboard](https://github.com/Swatii-Sharma/Micro_Particle_Dashboard)
 
-## Live Demo
-**[Launch Microplastic Analytics Platform on Render](#)** <!-- Replace # with your Render.com live link -->
+## 🛡️ What is this project?
 
-## Features
-- **Data Analytics:** Cleans and processes raw microplastic datasets to generate reliable summary statistics.
-- **Dynamic Visualizations:** Interactive charts to explore pollution distribution by particle type, size, and color.
-- **Geographic Interpolation:** Explore pollution levels across various sample locations with advanced data mapping.
-- **Risk Indicators:** Automatically calculates environmental pollution risk scores based on particle concentrations.
-- **Modern Dashboard UI:** A deeply stylized, responsive, user-friendly interface powered by advanced HTML, CSS, JS and a dark theme for optimal data reading.
+This project is a powerful but easy-to-use **Cyber Intelligence Dashboard**. It connects to the official MITRE ATT&CK database (a global list of known hacker techniques and tactics) to create a visual and interactive web dashboard. 
 
-## Tech Stack
-- **Frontend:** HTML5, CSS3, Vanilla JavaScript, Chart.js (or similar charing librarires)
-- **Backend:** Python (Standard HTTP Server), Pandas for data processing
+In simple words, it reads raw data about how hackers attack systems, analyzes it, and then builds a beautiful, human-readable webpage (`dashboard.html`) to show you:
+- **Analytics Hub:** Charts and stats about different hacker tactics.
+- **Matrix Explorer:** A searchable table of over 800 hacking techniques, their risk levels, and targeted platforms (like Windows, Linux, Cloud).
+- **Defense Strategies:** Ways to protect systems and stop these attacks.
+- **Data Export:** You can even download a neat Excel/CSV report of the top threats!
 
-## Getting Started
+All you have to do is run the Python script (`main.py`), and it automatically updates and creates the dashboard for you!
 
-### Prerequisites
-- Python 3.8+
-- Pandas
+---
 
-### Local Installation
-1. Clone the repository:
+## 🚀 How to Run it on Your Own Computer
+
+1. Make sure you have Python installed.
+2. Install the required tools by typing this in your terminal:
    ```bash
-   git clone https://github.com/Swatii-Sharma/Cyber_Attack_Dashboard.git
+   pip install -r requirements.txt
    ```
-2. Navigate to the project directory:
+3. Run the main file:
    ```bash
-   cd Cyber_Attack_Dashboard
+   python main.py
    ```
-3. Install dependencies:
-   ```bash
-   pip install pandas
-   ```
-4. Run the backend server:
-   ```bash
-   cd backend
-   python app.py
-   ```
-5. Note: The server serves the `frontend` static files. You can visit `http://localhost:8000/` in your browser.
+4. A file called `dashboard.html` will be created in your folder. Double-click it to open your new dashboard in your web browser!
 
-## Deployment
-This app can be deployed to [Render.com](https://render.com) using a Web Service. Just connect your GitHub repository and point the build command and start command as needed for the Python backend.
+---
 
-## License
-MIT License
+## 🌐 How to Deploy to Render (Free)
+
+Want to share your dashboard with the world using a public link? You can use Render to host it for free!
+
+1. Go to [Render](https://render.com/) and sign up or log in.
+2. Click the **"New"** button and select **"Static Site"**.
+3. Connect your GitHub account and select this repository (`Micro_Particle_Dashboard`).
+4. Fill in the deployment details like this:
+   - **Name:** Choose a name (e.g., `cyber-dashboard`)
+   - **Branch:** `main`
+   - **Build Command:** `pip install -r requirements.txt && python main.py`
+   - **Publish directory:** `.` (just a single dot)
+5. Click **Create Static Site**.
+
+Render will now run your Python code, generate the `dashboard.html`, and host it on a public link. Wait a minute for it to finish 
