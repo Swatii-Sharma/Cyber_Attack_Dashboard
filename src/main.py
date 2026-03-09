@@ -14,7 +14,12 @@ from datetime import datetime
 # ---------------------------------------------------------
 # STEP 0: THE MASTER DATA ENGINE
 # ---------------------------------------------------------
-JSON_FILE = 'enterprise-attack.json'
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+data_dir = os.path.join(base_dir, 'data')
+public_dir = os.path.join(base_dir, 'public')
+os.makedirs(data_dir, exist_ok=True)
+os.makedirs(public_dir, exist_ok=True)
+JSON_FILE = os.path.join(data_dir, 'enterprise-attack.json')
 if not os.path.exists(JSON_FILE):
     print("📡 Downloading Master Intelligence...")
     r = requests.get("https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json")
@@ -97,7 +102,7 @@ for r in rels[:60]:
     })
 
 # CSV Export (Step 10)
-pd.DataFrame(matrix_rows).to_csv('complete_cyber_report.csv', index=False)
+pd.DataFrame(matrix_rows).to_csv(os.path.join(public_dir, 'complete_cyber_report.csv'), index=False)
 
 # ---------------------------------------------------------
 # STEP 1: THE MASTER UI (TAB NAVIGATION)
@@ -266,7 +271,7 @@ html_v8 = f"""
 </html>
 """
 
-with open('dashboard.html', 'w', encoding='utf-8') as f:
+with open(os.path.join(public_dir, 'dashboard.html'), 'w', encoding='utf-8') as f:
     f.write(html_v8)
 
 print("\n🚀 FINAL PROJECT DEPLOYED: THE COMPLETE CYBER INTELLIGENCE HUB.")

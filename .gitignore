@@ -1,2 +1,4 @@
 venv/
 enterprise-attack.json
+# Local Netlify folder
+.netlify
