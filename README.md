@@ -15,6 +15,27 @@ In simple words, it reads raw data about how hackers attack systems, analyzes it
 All you have to do is run the Python script (`main.py`), and it automatically updates and creates the dashboard for you!
 
 ---
+# Cyber Intelligence Dashboard
+
+Cyber Intelligence Dashboard is a web-based visualization platform designed to monitor and analyze cyber-related data. The dashboard provides interactive charts, insights, and summaries to help users understand patterns, trends, and potential cyber threats.
+
+## 🌐 Live Demo
+https://cyberbd-jay.netlify.app/
+
+## 🚀 Features
+- Real-time cyber data visualization
+- Interactive charts and graphs
+- Data-driven insights for threat monitoring
+- Clean and user-friendly dashboard interface
+
+## 🛠️ Technologies Used
+- Python
+- Pandas
+- NumPy
+- Requests
+- Data Visualization
+
+## 📂 Project Structure
 
 ## 🚀 How to Run it on Your Own Computer
 
