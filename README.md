@@ -1,6 +1,6 @@
 # Cyber Intelligence Dashboard
 
-**Project Link:** [https://cyberbd-jay.netlify.app/]((https://cyberbd-jay.netlify.app/))
+**Project Link:** [https://cyberbd-jay.netlify.app/] ((https://cyberbd-jay.netlify.app/))
 
 ## 🛡️ What is this project?
 
