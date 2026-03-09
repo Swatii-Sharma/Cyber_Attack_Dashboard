@@ -1,6 +1,6 @@
 # Cyber Intelligence Dashboard
 
-**Project Link:** [https://github.com/Swatii-Sharma/Micro_Particle_Dashboard](https://github.com/Swatii-Sharma/Micro_Particle_Dashboard)
+**Project Link:** [https://github.com/Swatii-Sharma/Micro_Particle_Dashboard]((https://cyberbd-jay.netlify.app/))
 
 ## 🛡️ What is this project?
 
@@ -29,20 +29,4 @@ All you have to do is run the Python script (`main.py`), and it automatically up
    ```
 4. A file called `dashboard.html` will be created in your folder. Double-click it to open your new dashboard in your web browser!
 
----
-
-## 🌐 How to Deploy to Render (Free)
-
-Want to share your dashboard with the world using a public link? You can use Render to host it for free!
-
-1. Go to [Render](https://render.com/) and sign up or log in.
-2. Click the **"New"** button and select **"Static Site"**.
-3. Connect your GitHub account and select this repository (`Micro_Particle_Dashboard`).
-4. Fill in the deployment details like this:
-   - **Name:** Choose a name (e.g., `cyber-dashboard`)
-   - **Branch:** `main`
-   - **Build Command:** `pip install -r requirements.txt && python main.py`
-   - **Publish directory:** `.` (just a single dot)
-5. Click **Create Static Site**.
-
-Render will now run your Python code, generate the `dashboard.html`, and host it on a public link. Wait a minute for it to finish 
+--- 
